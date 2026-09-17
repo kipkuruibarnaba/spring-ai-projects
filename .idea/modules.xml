@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dockermodel/dockermodel/dockermodel.iml" filepath="$PROJECT_DIR$/dockermodel/dockermodel/dockermodel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ollama/ollama/ollama.iml" filepath="$PROJECT_DIR$/ollama/ollama/ollama.iml" />
-      <module fileurl="file://$PROJECT_DIR$/open-ai/open-ai/open-ai.iml" filepath="$PROJECT_DIR$/open-ai/open-ai/open-ai.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-ai-projects.iml" filepath="$PROJECT_DIR$/.idea/spring-ai-projects.iml" />
     </modules>
   </component>

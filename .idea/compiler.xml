@@ -7,21 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ollama" />
+        <module name="bedrock" />
         <module name="dockermodel" />
         <module name="open-ai" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dockermodel" target="19" />
-      <module name="ollama" target="19" />
-      <module name="open-ai" target="19" />
+      <module name="open-ai (2)" target="19" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bedrock" options="-parameters" />
       <module name="dockermodel" options="-parameters" />
       <module name="ollama" options="-parameters" />
       <module name="open-ai" options="-parameters" />
+      <module name="open-ai (2)" options="-parameters" />
     </option>
   </component>
 </project>
