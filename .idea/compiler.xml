@@ -9,6 +9,7 @@
         <module name="ollama" />
         <module name="bedrock" />
         <module name="dockermodel" />
+        <module name="multimodell" />
         <module name="open-ai" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bedrock" options="-parameters" />
       <module name="dockermodel" options="-parameters" />
+      <module name="multimodell" options="-parameters" />
       <module name="ollama" options="-parameters" />
       <module name="open-ai" options="-parameters" />
       <module name="open-ai (2)" options="-parameters" />
