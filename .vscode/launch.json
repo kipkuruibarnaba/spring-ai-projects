@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BedrockApplication",
+            "request": "launch",
+            "mainClass": "com.bedrock.BedrockApplication",
+            "projectName": "bedrock"
+        },
+        {
+            "type": "java",
+            "name": "DockermodelApplication",
+            "request": "launch",
+            "mainClass": "com.dockermodel.DockermodelApplication",
+            "projectName": "dockermodel"
+        },
+        {
+            "type": "java",
+            "name": "MultimodelApplication",
+            "request": "launch",
+            "mainClass": "com.multimodel.MultimodelApplication",
+            "projectName": "multimodell"
+        },
+        {
+            "type": "java",
+            "name": "OllamaApplication",
+            "request": "launch",
+            "mainClass": "com.ollama.OllamaApplication",
+            "projectName": "ollama"
+        },
+        {
+            "type": "java",
+            "name": "OpenAiApplication",
+            "request": "launch",
+            "mainClass": "com.open_ai.OpenAiApplication",
+            "projectName": "open-ai"
+        },
+        {
+            "type": "java",
+            "name": "SpringAiApplication",
+            "request": "launch",
+            "mainClass": "com.spring_ai.SpringAiApplication",
+            "projectName": "spring-ai"
+        }
+    ]
+}
