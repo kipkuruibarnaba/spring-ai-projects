@@ -14,7 +14,9 @@ public class ChatClientConfig {
 
     @Bean
     public ChatClient chatClient(ChatClient.Builder chatClientBuilder) {
-        var options = OpenAiChatOptions.builder().model("gpt-5.4-mini").temperature(0.8);
+//        var options = OpenAiChatOptions.builder().model("gpt-5.4-mini-2026-03-17").temperature(0.8).maxCompletionTokens(10);
+        var options = OpenAiChatOptions.builder().model("gpt-5.4-mini-2026-03-17").temperature(0.8);
+
         return chatClientBuilder
                 .defaultOptions(options)
                 .defaultAdvisors(List.of(new SimpleLoggerAdvisor(),
